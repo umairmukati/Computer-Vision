@@ -1,0 +1,18 @@
+Warning: File 'handles.cam' not found.
+[> In MyCameraGUI>startStopCamera_Callback at 254
+  In gui_mainfcn at 95
+  In MyCameraGUI at 18
+  In @(hObject,eventdata)MyCameraGUI('startStopCamera_Callback',hObject,eventdata,guidata(hObject))
+  In uiwait at 81
+  In MyCameraGUI>MyCameraGUI_OpeningFcn at 130
+  In gui_mainfcn at 220
+  In MyCameraGUI at 18] 
+Warning: File 'handles.cam' not found.
+[> In MyCameraGUI>MyCameraGUI_CloseRequestFcn at 225
+  In gui_mainfcn at 95
+  In MyCameraGUI at 18
+  In @(hObject,eventdata)MyCameraGUI('MyCameraGUI_CloseRequestFcn',hObject,eventdata,guidata(hObject))
+  In uiwait at 81
+  In MyCameraGUI>MyCameraGUI_OpeningFcn at 130
+  In gui_mainfcn at 220
+  In MyCameraGUI at 18] 

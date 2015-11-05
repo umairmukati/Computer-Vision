@@ -1,0 +1,36 @@
+ant:
+<ant>
+  <mkdir dir="C:\Users\Umair Mukati\Documents\MATLAB\LaneDetection\for_redistribution" />
+  <mkdir dir="C:\Users\Umair Mukati\Documents\MATLAB\LaneDetection\for_testing" />
+  <mkdir dir="C:\Users\Umair Mukati\Documents\MATLAB\LaneDetection\for_redistribution_files_only" />
+</ant>
+mcc -C -o LaneDetection -W WinMain:LaneDetection -T link:exe -d 'C:\Users\Umair Mukati\Documents\MATLAB\LaneDetection\for_testing' -R '-logfile,logfle.txt' -v 'C:\Users\Umair Mukati\Documents\MATLAB\LaneDetection\MyCameraGUI.m' -a 'C:\Users\Umair Mukati\Documents\MATLAB\LaneDetection\chooseXY.m' -a 'C:\Users\Umair Mukati\Documents\MATLAB\LaneDetection\drawLane.m' -a 'C:\Users\Umair Mukati\Documents\MATLAB\LaneDetection\MyCameraGUI.fig' -a C:\MATLAB\SupportPackages\R2014b\osgenericvideointerface\toolbox\imaq\supportpackages\genericvideo -a C:\MATLAB\SupportPackages\R2014b\dcamhardware\toolbox\imaq\supportpackages\dcam 
+Compiler version: 5.2 (R2014b)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path "C:\Users\Umair Mukati\Documents\MATLAB\LaneDetection" to
+Compiler path instance.] 
+Parsing file "C:\Users\Umair Mukati\Documents\MATLAB\LaneDetection\MyCameraGUI.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 14 temporary MEX authorization files.
+Removing: 'C:\Users\UMAIRM~1\AppData\Local\Temp\mathworks_tmp_11656_17532_11656.auth'.
+Removing: 'C:\Users\UMAIRM~1\AppData\Local\Temp\mathworks_tmp_11656_28068_11656.auth'.
+Removing: 'C:\Users\UMAIRM~1\AppData\Local\Temp\mathworks_tmp_11656_2496_11656.auth'.
+Removing: 'C:\Users\UMAIRM~1\AppData\Local\Temp\mathworks_tmp_11656_1316_11656.auth'.
+Removing: 'C:\Users\UMAIRM~1\AppData\Local\Temp\mathworks_tmp_11656_8322_11656.auth'.
+Removing: 'C:\Users\UMAIRM~1\AppData\Local\Temp\mathworks_tmp_11656_28603_11656.auth'.
+Removing: 'C:\Users\UMAIRM~1\AppData\Local\Temp\mathworks_tmp_11656_70_11656.auth'.
+Removing: 'C:\Users\UMAIRM~1\AppData\Local\Temp\mathworks_tmp_11656_28015_11656.auth'.
+Removing: 'C:\Users\UMAIRM~1\AppData\Local\Temp\mathworks_tmp_11656_15690_11656.auth'.
+Removing: 'C:\Users\UMAIRM~1\AppData\Local\Temp\mathworks_tmp_11656_27819_11656.auth'.
+Removing: 'C:\Users\UMAIRM~1\AppData\Local\Temp\mathworks_tmp_11656_4832_11656.auth'.
+Removing: 'C:\Users\UMAIRM~1\AppData\Local\Temp\mathworks_tmp_11656_4008_11656.auth'.
+Removing: 'C:\Users\UMAIRM~1\AppData\Local\Temp\mathworks_tmp_11656_4330_11656.auth'.
+Removing: 'C:\Users\UMAIRM~1\AppData\Local\Temp\mathworks_tmp_11656_26059_11656.auth'.
+Generating file "C:\Users\Umair Mukati\Documents\MATLAB\LaneDetection\for_testing\readme.txt".
+Packaging...
+Adding custom icon C:\Program Files\MATLAB\R2014b\toolbox\compiler\Resources\default_icon.ico to C:\Users\Umair Mukati\Documents\MATLAB\LaneDetection\for_testing\LaneDetection.exe.
+Attempting to embed the CTF archive into the application C:\Users\Umair Mukati\Documents\MATLAB\LaneDetection\for_testing\LaneDetection.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Web based installer created at C:\Users\Umair Mukati\Documents\MATLAB\LaneDetection\for_redistribution\LDSSetup.exe.
+Packaging complete.
